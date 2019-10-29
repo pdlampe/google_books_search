@@ -4,7 +4,7 @@ import Results from "../components/Results";
 
 class Saved extends Component {
     state = {
-        savedVooks: [],
+        savedBooks: [],
     }
 
     componentDidMount() {
@@ -15,7 +15,7 @@ class Saved extends Component {
         return (
             <div className="container">
                 <h2>Saved Books</h2>
-                <Result books={this.state.savedBooks} />
+                <Results books={this.state.savedBooks} />
             </div>
         )
     }

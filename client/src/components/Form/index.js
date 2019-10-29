@@ -1,6 +1,6 @@
 import React from "react";
 
-function Form(props) {
+export default function Form(props) {
     return (
         <div className="container">
             <form>
